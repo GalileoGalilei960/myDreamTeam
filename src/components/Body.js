@@ -3,6 +3,7 @@ import React from "react";
 const Body = () => {
   return (
     <main style={styles.body}>
+      
       <div style={styles.card}>
         <img
           src={"/sony-monkey.jpg"}
@@ -23,6 +24,28 @@ const Body = () => {
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andriy Dutkevych</h2>
           <p style={styles.position}>Software Architect</p>
+
+      <div style={styles.card}>
+        <img
+          src={"/avatar-olena.jpg"}
+          alt="Olena Danchenko"
+          style={styles.photo}
+        />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Olena Danchenko</h2>
+          <p style={styles.position}>Automation QA</p>
+        </div>
+      </div>
+
+            <div style={styles.card}>
+        <img
+          src={"/5251671850054519828.jpg"}
+          alt="bebra"
+          style={styles.photo}
+        />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Ivan Ihnatenko</h2>
+          <p style={styles.position}>інженер</p>
         </div>
       </div>
     </main>
