@@ -3,7 +3,6 @@ import React from "react";
 const Body = () => {
   return (
     <main style={styles.body}>
-      
       <div style={styles.card}>
         <img
           src={"/sony-monkey.jpg"}
@@ -41,14 +40,10 @@ const Body = () => {
       </div>
 
       <div style={styles.card}>
-        <img
-          src={"/5251671850054519828.jpg"}
-          alt="bebra"
-          style={styles.photo}
-        />
+        <img src={"/image.png"} alt="bebra" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Ivan Ihnatenko</h2>
-          <p style={styles.position}>інженер</p>
+          <p style={styles.position}>Software Engineer</p>
         </div>
       </div>
     </main>
